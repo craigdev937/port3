@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: var(--primary);
+    color: var(--dark);
+}
+
+.navbar__logo {
+    text-decoration: none;
+}
+
+.navbar__ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.navbar__link {
+    display: flex;
+    align-items: flex-end;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.navbar__link:hover {
+    background-color: blue;
+    color: #000;
+    border-radius: 50px;
+}
+
+

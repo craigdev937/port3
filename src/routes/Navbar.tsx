@@ -1,16 +1,54 @@
+import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { FiMenu, FiX } from "react-icons/fi";
 
-export const Navbar = (): JSX.Element => (
-    <nav className="navbar">
-        <Link className="navbar__logo" to="/"><h3>LOGO</h3></Link>
-        <ul className="navbar__ul">
-            <Link className="navbar__link" to="/">Home</Link>
-            <Link className="navbar__link" to="/about">About</Link>
-            <Link className="navbar__link" to="/portfolio">Portfolio</Link>
-        </ul>
-    </nav>
-);
+export const Navbar = (): JSX.Element => {
+    const [open, setOpen] = React.useState(false);
+
+    const handleClick = () => {
+        setOpen(!open);
+    };
+
+    const closeMenu = () => {
+        setOpen(false);
+    };
+
+    return (
+        <nav className="navbar">
+            <Link className="nav-logo" to="/"><h3>IndigoMX9</h3></Link>
+            <aside className="nav-icon" onClick={handleClick}>
+                {open ? <FiX /> : <FiMenu />}
+            </aside>
+            <ul className={open ? "nav-links active" : "nav-links"}>
+                <li className="nav-item">
+                    <Link 
+                        className="nav-link" 
+                        to="/" 
+                        onClick={closeMenu}
+                        >Home
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link 
+                        className="nav-link" 
+                        to="/about" 
+                        onClick={closeMenu}
+                        >About
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link 
+                        className="nav-link" 
+                        to="/portfolio" 
+                        onClick={closeMenu}
+                        >Portfolio
+                    </Link>
+                </li>
+            </ul>
+        </nav>
+    );
+};
 
 
 

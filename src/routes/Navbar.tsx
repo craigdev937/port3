@@ -16,8 +16,12 @@ export const Navbar = (): JSX.Element => {
 
     return (
         <nav className="navbar">
-            <Link className="nav-logo" to="/"><h3>IndigoMX9</h3></Link>
-            <aside className="nav-icon" onClick={handleClick}>
+            <Link className="nav-logo" to="/">
+                <h3>IndigoMX9</h3>
+            </Link>
+            <aside 
+                className="nav-icon" 
+                onClick={handleClick}>
                 {open ? <FiX /> : <FiMenu />}
             </aside>
             <ul className={open ? "nav-links active" : "nav-links"}>

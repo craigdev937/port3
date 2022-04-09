@@ -3,8 +3,9 @@
 :root {
     --dark: #1d1d1d;
     --light: #fff;
-    --primary: #a2a2f6;
-    --bg: #f4f4ff;
+    --orange: #ff9c71;
+    --purple: #64517c;
+    --blue: #4682b4;
 }
 
 * {

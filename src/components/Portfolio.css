@@ -1,0 +1,23 @@
+.container > aside {
+    outline: 1px solid #fff;
+}
+
+.box-1 {
+    width: calc(100vw / 3); /* calculates 100% of the views */
+    color: var(--light);   /* width and divdes it by 3 */
+    background: var(--blue);
+}
+
+.box-2 {
+    width: calc(100vw * (2/3));  /* Two thirds of the entire view */
+    color: var(--light);
+    background: var(--orange);
+}
+
+.box-3 {
+    width: 100vw; /* The full view */
+    color: var(--light);
+    background: var(--purple);
+}
+
+

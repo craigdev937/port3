@@ -1,14 +1,11 @@
-import React from "react";
 import "./App.css";
 import { Page } from "../routes/Page";
-import { Footer } from "../components/Footer";
 
 export const App = (): JSX.Element => {
     return (
-        <React.Fragment>
+        <main className="page-container">
             <Page />
-            <Footer />
-        </React.Fragment>
+        </main>
     );
 };
 

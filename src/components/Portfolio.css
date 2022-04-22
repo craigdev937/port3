@@ -1,23 +1,41 @@
-.container > aside {
-    outline: 1px solid #fff;
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
 }
 
 .box-1 {
-    width: calc(100vw / 3); /* calculates 100% of the views */
-    color: var(--light);   /* width and divdes it by 3 */
+    width: 30vw;
+    height: 60vh;
+    color: var(--light);
     background: var(--blue);
 }
 
 .box-2 {
-    width: calc(100vw * (2/3));  /* Two thirds of the entire view */
+    width: 30vw;
+    height: 60vh;
     color: var(--light);
     background: var(--orange);
 }
 
 .box-3 {
-    width: 100vw; /* The full view */
+    width: 30vw;
+    height: 60vh;
     color: var(--light);
     background: var(--purple);
+} 
+
+.section-header {
+    padding: 5px;
+    text-align: center;
 }
 
+.section-body {
+    padding: 5px;
+}
+
+.section-footer {
+    padding: 5px;
+    text-align: center;
+}
 

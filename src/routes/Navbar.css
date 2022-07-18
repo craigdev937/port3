@@ -1,7 +1,7 @@
 .navbar {
     height: 80px;
     width: 100%;
-    background-color: blue;
+    background-color: var(--blue);
     color: var(--light);
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@
 }
 
 .nav-link:hover {
-    color: red;
+    color: var(--orange);
 }
 
 @media only screen and (max-width: 500px) {
@@ -55,14 +55,14 @@
     }
 
     .nav-links.active {
-        background: blue;
+        background: var(--blue);
         left: 0;
     }
 
     .nav-item {
         padding: 10px 0;
-        border-top: 1px solid red;
-        border-bottom: 1px solid red;
+        /* border-top: 1px solid red;
+        border-bottom: 1px solid red; */
     }
 
     .nav-icon {

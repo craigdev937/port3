@@ -36,9 +36,9 @@ export const Navbar = (): JSX.Element => {
                 <li className="nav-item">
                     <Link 
                         className="nav-link" 
-                        to="/about" 
+                        to="/skills" 
                         onClick={closeMenu}
-                        >About
+                        >Skills
                     </Link>
                 </li>
                 <li className="nav-item">

@@ -11,17 +11,21 @@ export const Portfolio = (): JSX.Element => {
                     <a href="https://www.google.com" target="_blank">
                         <aside className="section-header">Google</aside>
                     </a>
-                        <aside className="section-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur modi earum quod quisquam error odio dignissimos, ipsum ad.</aside>
+                        <aside className="section-body">Front-end Project 1.</aside>
                         <aside className="section-footer">one</aside>
                 </section>
                 <section className="box-2">
-                    <aside className="section-header">Two</aside>
-                    <aside className="section-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur modi earum quod quisquam error odio dignissimos, ipsum ad.</aside>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <aside className="section-header">Twitter</aside>
+                    </a>
+                    <aside className="section-body">Front-end Project 2.</aside>
                     <aside className="section-footer">two</aside>
                 </section>
                 <section className="box-3">
-                    <aside className="section-header">Three</aside>
-                    <aside className="section-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit consequatur modi earum quod quisquam error odio dignissimos, ipsum ad.</aside>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <aside className="section-header">Facebook</aside>
+                    </a>
+                    <aside className="section-body">Front-end Project 3.</aside>
                     <aside className="section-footer">three</aside>
                 </section>
             </main>

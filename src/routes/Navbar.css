@@ -1,7 +1,7 @@
 .navbar {
     height: 80px;
     width: 100%;
-    background-color: var(--blue);
+    background-color: var(--indigo);
     color: var(--light);
     display: flex;
     justify-content: space-between;
@@ -31,7 +31,7 @@
 .nav-link {
     text-decoration: none;
     color: var(--light);
-    transition: 0.3s all;
+    transition: 1.25s all;
 }
 
 .nav-link:hover {
@@ -51,18 +51,16 @@
         width: 100%;
         top: 80px;
         left: -100%;
-        transition: 0.5s all;
+        transition: 0.7s all;
     }
 
     .nav-links.active {
-        background: var(--blue);
+        background: var(--indigo);
         left: 0;
     }
 
     .nav-item {
         padding: 10px 0;
-        /* border-top: 1px solid red;
-        border-bottom: 1px solid red; */
     }
 
     .nav-icon {

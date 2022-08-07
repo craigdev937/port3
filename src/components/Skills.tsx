@@ -4,7 +4,7 @@ export const Skills = (): JSX.Element => {
     return (
         <React.Fragment>
             <h1>Skills</h1>
-            <h3>HTML, CSS, and JavaScript</h3>
+            <h3>HTML, CSS, JavaScript, TypeScript, React, Redux-Toolkit, Express, Handlebars, MongoDB Atlas, and PostgreSQL</h3>
         </React.Fragment>
     );
 };

@@ -1,0 +1,17 @@
+.profile__pic {
+    height: 300px;
+    width: auto;
+}
+
+.profile__btn {
+    height: 40px;
+    width: 80px;
+    background-color: var(--orange);
+    color: var(--light);
+    border-radius: 10px;
+}
+
+.profile__btn a {
+    text-decoration: none;
+}
+

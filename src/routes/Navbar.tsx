@@ -17,7 +17,7 @@ export const Navbar = (): JSX.Element => {
     return (
         <nav className="navbar">
             <Link className="nav-logo" to="/">
-                <h3>IndigoMX9</h3>
+                <h3>CraigCodes9</h3>
             </Link>
             <aside 
                 className="nav-icon" 

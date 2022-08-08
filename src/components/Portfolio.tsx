@@ -1,5 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
+import baloon from "./../img/baloon.png";
 
 export const Portfolio = (): JSX.Element => {
     return (
@@ -7,6 +8,7 @@ export const Portfolio = (): JSX.Element => {
             <h1>Portfolio</h1>
             <main className="grid-container">
                 <section className="box box__color1">
+                    <img src={baloon} alt="Baloons" className="box__image" />
                     <a href="https://www.google.com" target="_blank">
                         <aside className="box__header">Google</aside>
                     </a>

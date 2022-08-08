@@ -5,6 +5,7 @@ import { Footer } from "../components/Footer";
 import { Home } from "../components/Home";
 import { Skills } from "../components/Skills";
 import { Portfolio } from "../components/Portfolio";
+import { Details } from "../components/Details";
 
 export const Page = (): JSX.Element => (
     <BrowserRouter>
@@ -14,6 +15,7 @@ export const Page = (): JSX.Element => (
                 <Route path="/" element={<Home />} />
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/project/:id" element={<Details />} />
             </Routes>
             <Footer />
         </React.Fragment>

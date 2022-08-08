@@ -49,6 +49,14 @@ export const Navbar = (): JSX.Element => {
                         >Portfolio
                     </Link>
                 </li>
+                {/* <li className="nav-item">
+                    <Link 
+                        className="nav-link" 
+                        to="/project/:id" 
+                        onClick={closeMenu}
+                        >Details
+                    </Link>
+                </li> */}
             </ul>
         </nav>
     );

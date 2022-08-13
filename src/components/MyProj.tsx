@@ -3,15 +3,14 @@ import { Link } from "react-router-dom";
 import { IData } from "../types/Interfaces";
 
 type Props = {
-    projectInfo: IData,
-    id: number
+    projectInfo: IData
 };
 
 export const MyProj = 
-({ projectInfo, id }: Props): JSX.Element => {
+({ projectInfo }: Props): JSX.Element => {
     return (
         <React.Fragment>
-            <Link to={`/project/${id}`}>
+            <Link to={`/project/${projectInfo.id}`}>
                 <section className={`projectCard 
                             ${projectInfo.class}`}>
                     <aside className="projectCardInfo">

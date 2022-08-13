@@ -1,5 +1,6 @@
 export const PortData = [
     {
+        id: 1,
         name:'JobTracker',
         deployed:'https://job-tracker-bh.herokuapp.com/home',
         github:'https://github.com/bthalpin/Job-Tracker',
@@ -8,6 +9,7 @@ export const PortData = [
         technology:'HTML/CSS, JavaScript, React, React Router, MongoDB, Mongoose, Node, Express, bcrypt, JSON Web Tokens, Node-Fetch, Cheerio'
     },
     {
+        id: 2,
         name:'Raffles of Love',
         deployed:'https://charity-raffle.herokuapp.com/',
         github:'https://github.com/bthalpin/Raffles-of-Love',
@@ -16,6 +18,7 @@ export const PortData = [
         technology:'HTML/CSS, React-Bootstrap, JavaScript, React, Apollo, GraphQL, Mongoose, Node, Express, bcrypt, JSON Web Tokens, Stripe'
     },
     {
+        id: 3,
         name:'SnapShot',
         deployed:'https://bh-snapshot.herokuapp.com/',
         github:'https://github.com/bthalpin/SnapShot',
@@ -24,6 +27,7 @@ export const PortData = [
         technology:'HTML/CSS, Bootstrap, JavaScript, Handlebars, Node, Express, MySQL, Sequelize'
     },
     {
+        id: 4,
         name:'What Movie Was That?',
         deployed:'https://bthalpin.github.io/What-Movie-Was-That/',
         github:'https://github.com/bthalpin/What-Movie-Was-That',
@@ -33,6 +37,7 @@ export const PortData = [
 
     },
     {
+        id: 5,
         name:'Weather Forecast',
         deployed:'https://bthalpin.github.io/Weather-Forecast/',
         github:'https://github.com/bthalpin/Weather-Forecast',
@@ -41,6 +46,7 @@ export const PortData = [
         technology:'HTML/CSS, JavaScript, jQuery, OpenWeather API, OpenWeather Geocoding API'
     },
     {
+        id: 6,
         name:'PWA Text Editor',
         deployed:'https://text-editor-bh.herokuapp.com/',
         github:'https://github.com/bthalpin/text-editor-app',
@@ -49,6 +55,7 @@ export const PortData = [
         technology:'HTML/CSS, JavaScript, Progressive Web App, Workbox-WebPack, IndexedDB, Node, Express'
     },
     {
+        id: 7,
         name:'Messaging Project',
         deployed:'https://bthalpin.github.io/messagingApp/',
         github:'https://github.com/bthalpin/messagingApp',
@@ -57,6 +64,7 @@ export const PortData = [
         technology:'HTML/CSS, JavaScript, React, Node, Express, Postgres, Knex, Socket.io, bcrypt'
     },
     {
+        id: 8,
         name:'This Portfolio Site',
         deployed:'#/Project/7',
         github:'https://github.com/bthalpin/TypeScript-Portfolio',

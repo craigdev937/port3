@@ -1,4 +1,5 @@
 import React from "react";
+import "./MyProj.css";
 import { Link } from "react-router-dom";
 import { IData } from "../types/Interfaces";
 

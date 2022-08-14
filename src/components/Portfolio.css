@@ -1,3 +1,8 @@
+.projectContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, auto);
